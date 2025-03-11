@@ -4,7 +4,7 @@ library(tidyverse)
 library(data.table)
 
 # Load Data
-data <- read.csv("C:\\Users\\Zahra\\Downloads\\graduate_survey (4).csv")  # Ensure the file is in your working directory
+data <- read.csv("graduate_survey (4).csv")  # Ensure the file is in your working directory
 
 # Filter only IT graduates
 data <- data %>% filter(StudyField %in% c("IT", "Data Science", "Computer Science"))
